@@ -1,0 +1,10 @@
+export const name = 'Tobi Owoade'
+export const innovative = '...an innovative product designer with thousands of design hours under his belt.'
+export const resume = " Download resume"
+export const wanna = " Wanna know me ?"
+export const about = " I am a passionate product designer crafting user-friendly interfaces for real problems. Beyond design, I’m a dedicated Twitter user, podcast lover, and Manchester United fan. Video games and music have been past joys. I thrive on embracing creativity and seeking new challenges"
+export const designstuff = "I create user-centered designs for mobile apps and websites in various sectors, including e-commerce, fintech, and web 3.0, combining functionality and aesthetics for exceptional digital experiences."
+export const mywork = 'See my work'
+export const writestuff = 'I seize every opportunity to create diverse articles, covering an array of topics including UI/UX, lifestyle, music, and content.'
+export const myarticles = "Read my articles"
+export const contact = "Contact me"
