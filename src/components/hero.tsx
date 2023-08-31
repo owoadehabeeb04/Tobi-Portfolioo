@@ -11,14 +11,14 @@ const Hero = () => {
   return (
     <div>
       <section>
-        < motion.div
-        variants={{
-          disappear:{opacity: 0, y: -75},
-          appear:{opacity: 1, y: 0},
-        }}
-        initial="disappear"
-        animate="appear"
-        transition={{duration: 0.5, delay: 0.25}}
+        <div
+        // variants={{
+        //   disappear:{opacity: 0, y: -75},
+        //   appear:{opacity: 1, y: 0},
+        // }}
+        // initial="disappear"
+        // animate="appear"
+        // transition={{duration: 0.5, delay: 0.25}}
         className="px-[2.19rem] flex flex-col justify-center items-center mt-[0.75rem] sm:mt-[2rem] mb-[4.3rem] ">
           <h1 className="text-[#202939] text-center font-DMSans text-[2.5rem] sm:text-[5.25rem] font-bold leading-[3rem] sm:leading-[6rem] tracking-wider">
             Tobiloba <br />
@@ -35,7 +35,7 @@ const Hero = () => {
           </a>
           {/* 2.19
 1.25 */}
-        </motion.div>
+        </div>
         {/* width: 18.89219rem;
 height: 23.30969rem; */}
 

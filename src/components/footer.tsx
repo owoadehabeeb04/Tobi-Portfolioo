@@ -34,8 +34,8 @@ const image = Object.entries(images)
 console.log(image)
 // image.map((img : any,i: number)=> console.log(img[1].images))
   return (
-    <footer className='ml-[1.25rem] md:ml-[6.5rem] my-[3rem] md:my-[8rem]'>
-        <section className='flex  items-center'>
+    <footer className='ml-[1.25rem] md:ml-[6.5rem] my-[3rem] md:my-[8rem] '>
+        <section className='flex  items-center gap-[1rem]'>
          <img className="bounce" src={logo} alt="" />
           <h1 className="text-black text-[0.875rem]  md:text-[1.25rem] font-bold leading-[normal] font-Bellota ">
             {name}
@@ -45,7 +45,7 @@ console.log(image)
             {image.map((img : any, i)=>(
                  <a href="/" key={i}><img src={img[1].images} alt="" /></a>)
             )}
-       
+       0
           </section>
     </footer>
   )
