@@ -1,5 +1,5 @@
 import React from 'react'
-import { name } from '../constants'
+import { behancelink, instagramlink, linkedlnlink, mediumlink, name, twitterlink } from '../constants'
 import logo from "../img/logo.svg";
 import behance from "../img/behance 1.svg"
 import instagram from "../img/instagram 1.svg"
@@ -10,19 +10,25 @@ import linkedln from "../img/linkedin (1) 1.svg"
 const Footer = () => {
 const images ={
     behance: {
-        images: behance
+        images: behance,
+        links: behancelink
     },
     instagram: {
-        images: instagram
+        images: instagram,
+        links: instagramlink
+
     },
     twitter: {
-        images: twitter
+        images: twitter,
+        links: twitterlink
     },
     medium: {
-        images: medium
+        images: medium,
+        links: mediumlink
     },
      linkedln: {
-        images: linkedln
+        images: linkedln,
+        links: linkedlnlink
     }
 }
 console.log(images)
@@ -43,9 +49,8 @@ console.log(image)
           </section>
           <section className='flex gap-[1.5rem] mt-[2rem]'>
             {image.map((img : any, i)=>(
-                 <a href="/" key={i}><img src={img[1].images} alt="" /></a>)
+                 <a href={img[1].links} key={i}><img src={img[1].images} alt="" /></a>)
             )}
-       0
           </section>
     </footer>
   )

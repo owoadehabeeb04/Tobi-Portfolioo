@@ -27,7 +27,7 @@ const Hero = () => {
           <p className="text-[#697586] sm:w-[50%] text-center font-normal font-DMSans text-base sm:text-[1.7rem] leading-[normal]">
             {innovative}
           </p>
-          <a href="">
+          <a href="https://read.cv/tobiloba.owoade">
             <button className=" sm:mt-[2.5rem] mt-[2.5rem] bg-black py-[0.875rem] px-[1rem] flex justify-center items-center text-white text-[0.875rem] font-bold leading-[normal] sm:text-base sm:leading-[1.75rem] ">
               {" "}
               {resume}

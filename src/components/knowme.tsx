@@ -6,15 +6,18 @@ const Knowme = () => {
     <main
       className="
       main
+    
  sm:py-[2rem] 
 
  min-[1100px]:px-[10.0625rem] 
  min-[800px]:px-[5.0625rem] 
+ 
  px-[1.3rem]
  mt-[2rem]
 bg-[#F6FAFE]
 
    "
+   id="About"
     >
       <div className="grid sm:grid-cols-2 gap-[2.25rem] sm:gap-[2rem] md:gap-[3.5rem]  ">
         <figure className="sm:order-last sm:flex sm:justify-center  sm:flex-col">

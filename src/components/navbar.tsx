@@ -21,9 +21,9 @@ const toggle =(e: any)=> {
           {/* 5.94rem  1
           1.5rem 0.5rem */}
           <ul className="sm:flex hidden  gap-[1rem]">
-            <li><a className="text-black font-Bellota text-[0.875rem]  md:text-base font-bold leading-[normal]" href="/">About</a></li>
-            <li><a className="text-black font-Bellota text-[0.875rem]  md:text-base font-bold leading-[normal]" href="/">Project</a></li>
-            <li><a className="text-black font-Bellota text-[0.875rem]  md:text-base font-bold leading-[normal]" href="/">Contact</a></li>
+            <li><a className="text-black font-Bellota text-[0.875rem]  md:text-base font-bold leading-[normal]" href="#About">About</a></li>
+            <li><a className="text-black font-Bellota text-[0.875rem]  md:text-base font-bold leading-[normal]" href="#Project">Project</a></li>
+            <li><a className="text-black font-Bellota text-[0.875rem]  md:text-base font-bold leading-[normal]" href="#Contact">Contact</a></li>
           </ul>
 
           <div className="  flex w-[75px] justify-end sm:hidden p-[0.5rem]">
@@ -35,9 +35,9 @@ const toggle =(e: any)=> {
       
       { open ? <div className="mobilenavlink bg-white  ease-linear duration-[3s] transition-[all]  ">
     <ul className="flex flex-col  sm:hidden  gap-[1rem] justify-center items-center mx-auto">
-            <li><a className="text-black font-Bellota text-[0.875rem]  md:text-base font-bold leading-[normal]" href="/">About</a></li>
-            <li><a className="text-black font-Bellota text-[0.875rem]  md:text-base font-bold leading-[normal]" href="/">Project</a></li>
-            <li><a className="text-black font-Bellota text-[0.875rem]  md:text-base font-bold leading-[normal]" href="/">Contact</a></li>
+            <li><a className="text-black font-Bellota text-[0.875rem]  md:text-base font-bold leading-[normal]"onClick={toggle}  href="#About">About</a></li>
+            <li><a className="text-black font-Bellota text-[0.875rem]  md:text-base font-bold leading-[normal]" onClick={toggle}  href="#Project">Project</a></li>
+            <li><a className="text-black font-Bellota text-[0.875rem]  md:text-base font-bold leading-[normal]" onClick={toggle}   href="#Contact">Contact</a></li>
           </ul>
 </div>: ''}
     </header>

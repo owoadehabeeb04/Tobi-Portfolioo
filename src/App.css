@@ -75,12 +75,15 @@
   .line {
     display: none;
   }
-  
+  .main {
+    padding: 2rem 2rem;
+  }
 }
+
 @media (min-width: 640px) {
   .services section {
-    flex-basis: calc(50% - 20px); /* Adjust padding and border width */
-  }
+    flex-basis: calc(50% - 5.0625rem); 
+    }
 }
 /* @media (min-width: 640px) {
   .figure {
