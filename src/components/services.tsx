@@ -1,5 +1,5 @@
 import React from "react";
-import { behancelink, designstuff, myarticles, mywork, writestuff } from "../constants";
+import { behancelink, designstuff, mediumlink, myarticles, mywork, writestuff } from "../constants";
 import arrow from "../img/arrow.svg";
 import { Divider } from "@mui/material";
 
@@ -50,7 +50,7 @@ const Services = () => {
           <p className="text-[#697586] lg:h-[9.4375rem] font-DMSans text-base font-normal leading-[1.3125rem] md:text-[1.25rem] md:leading-[1.875rem] pt-[1.25rem] sm:pt-[1.5rem] sm:mb-[5rem]  ">
             {writestuff}
           </p>
-<a href={behancelink}>
+<a href={mediumlink}>
           <button className=" mt-[2.5rem] sm:mt-[0rem] btn font-DMSans text-base font-normal leading-[normal]  p-[0.75rem] sm:py-[0.75rem] sm:px-[1rem] flex justify-center items-center gap-[1rem] border-[1px] border-black border-solid text-black hover:text-white hover:bg-black">
             {myarticles}
             <svg

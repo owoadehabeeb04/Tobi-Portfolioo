@@ -9,7 +9,7 @@ const toggle =(e: any)=> {
   console.log(e.target)
 }
   return (
-    <header>
+    <header id="head">
       <nav className="flex justify-between items-center py-4 md:py-[1.45rem] px-2 md:px-[5.94rem] sticky top-0">
         <div className="logo flex flex-row gap-[0.25rem] md:gap-[0.75rem] items-center">
           <img className="bounce" src={logo} alt="" />

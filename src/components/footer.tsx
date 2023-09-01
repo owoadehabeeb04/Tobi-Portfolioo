@@ -42,10 +42,10 @@ console.log(image)
   return (
     <footer className='ml-[1.25rem] md:ml-[6.5rem] my-[3rem] md:my-[8rem] '>
         <section className='flex  items-center gap-[1rem]'>
-         <img className="bounce" src={logo} alt="" />
-          <h1 className="text-black text-[0.875rem]  md:text-[1.25rem] font-bold leading-[normal] font-Bellota ">
+        <a href="#head"> <img className="bounce" src={logo} alt="" /></a>
+          <a href="#head"><h1 className="text-black text-[0.875rem]  md:text-[1.25rem] font-bold leading-[normal] font-Bellota ">
             {name}
-          </h1>
+          </h1></a>
           </section>
           <section className='flex gap-[1.5rem] mt-[2rem]'>
             {image.map((img : any, i)=>(
