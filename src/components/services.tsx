@@ -6,7 +6,7 @@ import { Divider } from "@mui/material";
 const Services = () => {
   return (
     <figcaption className="sm:mt-[5rem]" id="Project">
-      <div className="w-[75.875rem] line h-[0.0625rem] bg-[#E3E8EF]  mx-auto my-0"></div>
+      <div className="max-w-[75.875rem] line h-[0.0625rem] bg-[#E3E8EF]  mx-auto my-0"></div>
 
       <figure className="services  mx-6 sm:flex md:flex-row lg:mx-[7.44rem] sm:gap-[2rem] md:gap-[5rem] lg:gap-[5rem] xl:gap-[8rem]">
         <section className="mt-[3rem] sm:mt-[0rem] sm:my-[3rem] md:my-[2rem] sm:ml-[40px] ">
@@ -71,7 +71,7 @@ const Services = () => {
           </a>
         </section>
       </figure>
-      <div className="w-[75.875rem] line h-[0.0625rem] bg-[#E3E8EF]  mx-auto my-0"></div>
+      <div className="max-w-[75.875rem] line h-[0.0625rem] bg-[#E3E8EF]  mx-auto my-0"></div>
     </figcaption>
   );
 };
